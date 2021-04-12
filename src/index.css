@@ -1,0 +1,43 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --color-lighter: #eeebdd;
+  --color-back: #f6f6ef;
+  --color-header: #ce1212;
+}
+.home {
+  width: 300px;
+  margin:0 auto ; 
+}
+.header-home {
+  padding: 5px 9px 3px 10px;
+  color: var(--color-back);
+  background-color: var(--color-header);
+  border-radius: 5px 5px 0 0;
+  font-weight: 900;
+}
+
+.room {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: var(--color-lighter);
+  border-radius: 5px;
+  padding: 9px;
+  margin: 9px 0;
+  -webkit-box-shadow: 5px 5px 3px -9px rgba(0,0,0,0.45); 
+  box-shadow: 5px 5px 3px -9px rgba(0,0,0,0.45);
+}
+
+.room-name {
+  text-transform: uppercase;
+}
+
+.room-switch {
+  cursor: pointer;
+}
+.room-ligth {
+  font-size: 0.8em;
+}
